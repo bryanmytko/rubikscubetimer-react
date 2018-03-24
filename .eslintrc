@@ -1,0 +1,25 @@
+{
+  extends: 'airbnb',
+  globals: {
+    afterAll: false,
+    afterEach: false,
+    beforeAll: false,
+    beforeEach: false,
+    describe: false,
+    document: false,
+    expect: false,
+    ga: false,
+    gtag: false,
+    it: false,
+    jest: false,
+    test: false,
+    window: false,
+  },
+  rules: {
+    'max-len': [2, 100, 2, { ignoreComments: true }],
+  },
+  env: {
+    es6: true,
+    browser: true,
+  },
+}
