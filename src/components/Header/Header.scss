@@ -1,0 +1,28 @@
+header {
+  nav {
+    background: #455C64;
+    max-height: 40px;
+    padding: 4px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    padding: 0 8px;
+  }
+
+  li > a {
+    color: #ffffff;
+    font-size: 0.9em;
+    font-weight: 200;
+    text-decoration: none;
+  }
+}
