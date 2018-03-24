@@ -9,8 +9,8 @@ import './Main.scss';
 const Main = () => (
   <main>
     <Switch>
-      <Route exact path='/' component={Timer} />
-      <Route path='/statistics' component={Statistics} />
+      <Route exact path="/" component={Timer} />
+      <Route path="/statistics" component={Statistics} />
     </Switch>
   </main>
 );
