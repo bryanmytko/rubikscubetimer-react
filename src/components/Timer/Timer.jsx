@@ -1,8 +1,9 @@
 import React from 'react';
+import Scramble from '../Scramble/Scramble';
 
 const Timer = () => (
   <h1>
-    Timer
+    <Scramble puzzle="cube3x3" scrambleLength={12} />
   </h1>
 );
 
