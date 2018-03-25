@@ -1,8 +1,29 @@
 header {
+  .logo {
+    align-items: center;
+    background: #394356;
+    display: flex;
+    margin: 8px 0;
+    min-height: 100px;
+  }
+
+  .logo__container {
+    margin: 0 auto;
+    max-width: 960px;
+    flex: 1;
+  }
+
+  h1 {
+    background: url('../../assets/logo.png') 0 -2px no-repeat;
+    color: #ffffff;
+    min-height: 45px;
+    font-size: 32px;
+    font-weight: 300;
+    padding-left: 54px;
+  }
+
   nav {
     background: #455C64;
-    max-height: 40px;
-    padding: 4px;
   }
 
   ul {
@@ -16,13 +37,18 @@ header {
 
   li {
     display: inline-block;
-    padding: 0 8px;
   }
 
   li > a {
     color: #ffffff;
+    display: block;
     font-size: 0.9em;
-    font-weight: 200;
+    font-weight: 300;
+    padding: 10px 12px;
     text-decoration: none;
+
+    &:hover {
+      background: #617e88;
+    }
   }
 }
